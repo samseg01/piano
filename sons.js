@@ -140,7 +140,7 @@ document.addEventListener('keydown', function(e) {
         case 83:
             teclaDoSus();
             break;
-        case 70:
+        case 68:
             teclaReSus();
             break;
         case 71:
