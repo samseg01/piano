@@ -38,10 +38,11 @@ header {
     background-color: transparent;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border: none;
     margin-left: 20px;
-    margin-top: 20px;
-}
+    }
 .linhaUm {
     height: 27px;
     width: 7px;
@@ -63,8 +64,8 @@ header {
 .tela-info {
     display: none;
     position: fixed;
-    width: 500px;
-    height: 300px;
+    width: 60%;
+    height: 60%;
     background-color: rgb(255,247,247);
     box-shadow: 3px 3px;
     border-radius: 20px;
@@ -82,17 +83,22 @@ header {
 }
 
 .piano {
-    width: fit-content;
-    height: fit-content;
+    width: 80%;
+    height: 80%;
+    max-height: 430px;
+    max-width: 830px;
     position: relative;
 }
 .teclas {
+    width: 100%;
+    height: 100%;
     display: flex;
     gap: 3px;
+    
 }
 .tecla-branca {
-    width: 110px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     border-width: 2px;
     border-left: 0px;
     background-color: whitesmoke;
@@ -114,8 +120,8 @@ header {
 
 .tecla-preta {
     position: absolute;
-    width: 70px;
-    height: 240px;
+    width: 10%;
+    height: 61%;
     background-color: black;
     border-radius: 0px 0px 6px 6px;
     color: white;
@@ -126,17 +132,18 @@ header {
 }
 
 #do- {
-    left: 75px;    
+    left: 9%;    
 }
 #re- {
-    left: 187px;    
+    left: 23.5%;    
 }
 #fa- {
-    left: 410px;    
+    left: 52%;    
 }
 #sol- {
-    left: 522px;    
+    left: 67%;   
 }
 #la- {
-    left: 634px;    
+    left: 81%;    
 }
+
