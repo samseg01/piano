@@ -24,11 +24,7 @@ const sonSolSus = new Audio('sol-.mp3');
 const btnLaSus = document.getElementById("la-");
 const sonLaSus = new Audio('la-.mp3');
 
-function teclaDo() {
-    sonDo.currentTime = 0;
-    sonDo.volume = 1;
-    sonDo.play();
-}
+
 function teclaRe() {
     sonRe.currentTime = 0;
     sonRe.volume = 1;
@@ -60,7 +56,11 @@ function teclaSi() {
     sonSi.play();
 }
 
-btnDo.addEventListener('click', teclaDo);
+btnDo.addEventListener('click', function(){
+    sonDo.currentTime = 0;
+    sonDo.volume = 1;
+    sonDo.play();
+});
 btnRe.addEventListener('click', teclaRe);
 btnMi.addEventListener('click', teclaMi);
 btnFa.addEventListener('click', teclaFa);
