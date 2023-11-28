@@ -60,13 +60,13 @@ function teclaSi() {
     sonSi.play();
 }
 
-btnDo.addEventListener('mouseenter', teclaDo);
-btnRe.addEventListener('mouseenter', teclaRe);
-btnMi.addEventListener('mouseenter', teclaMi)
-btnFa.addEventListener('mouseenter', teclaFa)
-btnSol.addEventListener('mouseenter', teclaSol)
-btnLa.addEventListener('mouseenter', teclaLa)
-btnSi.addEventListener('mouseenter', teclaSi)
+btnDo.addEventListener('click', teclaDo);
+btnRe.addEventListener('click', teclaRe);
+btnMi.addEventListener('click', teclaMi);
+btnFa.addEventListener('click', teclaFa);
+btnSol.addEventListener('click', teclaSol);
+btnLa.addEventListener('click', teclaLa);
+btnSi.addEventListener('click', teclaSi);
 ////////////////////////////////////////////
 function teclaDoSus() {
     sonDoSus.currentTime = 0;
