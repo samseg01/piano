@@ -1,28 +1,28 @@
 const btnDo = document.getElementById("do");
-const sonDo = new Audio('notas/do.mp3');
+const sonDo = new Audio('do.mp3');
 const btnRe = document.getElementById("re");
-const sonRe = new Audio('notas/re.mp3');
+const sonRe = new Audio('re.mp3');
 const btnMi = document.getElementById("mi");
-const sonMi = new Audio('notas/mi.mp3');
+const sonMi = new Audio('mi.mp3');
 const btnFa = document.getElementById("fa");
-const sonFa = new Audio('notas/fa.mp3');
+const sonFa = new Audio('fa.mp3');
 const btnSol = document.getElementById("sol");
-const sonSol = new Audio('notas/sol.mp3');
+const sonSol = new Audio('sol.mp3');
 const btnLa = document.getElementById("la");
-const sonLa = new Audio('notas/la.mp3');
+const sonLa = new Audio('la.mp3');
 const btnSi = document.getElementById("si");
-const sonSi = new Audio('notas/si.mp3');
+const sonSi = new Audio('si.mp3');
 
 const btnDoSus = document.getElementById("do-");
-const sonDoSus = new Audio('notas/do-.mp3');
+const sonDoSus = new Audio('do-.mp3');
 const btnReSus = document.getElementById("re-");
-const sonReSus = new Audio('notas/re-.mp3');
+const sonReSus = new Audio('re-.mp3');
 const btnFaSus = document.getElementById("fa-");
-const sonFaSus = new Audio('notas/fa-.mp3');
+const sonFaSus = new Audio('fa-.mp3');
 const btnSolSus = document.getElementById("sol-");
-const sonSolSus = new Audio('notas/sol-.mp3');
+const sonSolSus = new Audio('sol-.mp3');
 const btnLaSus = document.getElementById("la-");
-const sonLaSus = new Audio('notas/la-.mp3');
+const sonLaSus = new Audio('la-.mp3');
 
 function teclaDo() {
     sonDo.currentTime = 0;
