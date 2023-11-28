@@ -62,11 +62,11 @@ function teclaSi() {
 
 btnDo.addEventListener('mouseenter', teclaDo);
 btnRe.addEventListener('mouseenter', teclaRe);
-btnMi.addEventListener('mouseenter', teclaMi);
-btnFa.addEventListener('mouseenter', teclaFa);
-btnSol.addEventListener('mouseenter', teclaSol);
-btnLa.addEventListener('mouseenter', teclaLa);
-btnSi.addEventListener('mouseenter', teclaSi);
+btnMi.addEventListener('mouseenter', teclaMi)
+btnFa.addEventListener('mouseenter', teclaFa)
+btnSol.addEventListener('mouseenter', teclaSol)
+btnLa.addEventListener('mouseenter', teclaLa)
+btnSi.addEventListener('mouseenter', teclaSi)
 ////////////////////////////////////////////
 function teclaDoSus() {
     sonDoSus.currentTime = 0;
@@ -143,4 +143,3 @@ document.addEventListener('keydown', function(e) {
 
     }
 })
-
